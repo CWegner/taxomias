@@ -58,9 +58,9 @@ def TaxidByName(name,limit=1):
     result = cursor.fetchone()
     cursor.close()
     if result:
-		  return result[0]
+		return result[0]
     else:
-		  return [unknown]  
+		return [unknown]  
 
 #taxomias.RankByTaxid(2)
 def RankByTaxid(taxid):
