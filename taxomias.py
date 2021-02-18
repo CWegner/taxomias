@@ -45,7 +45,7 @@ v0.1 (August '16)
 
 import os, sqlite3
 
-db = "/path/to/ncbi_taxonomy.db"
+db = "ncbi_taxonomy.db"
 unknown = -1
 no_rank = "no rank"
 
